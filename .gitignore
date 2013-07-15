@@ -2,13 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/Transrascal.Operations.SafetyReporter/bin/Debug
-/Transrascal.Operations.SafetyReporter/obj/Debug
-/Transrascal.Operations.SafetyReporter/obj/Debug
-/Transrascal.Operations.SafetyReporter/obj/Debug
-/Transrascal.Operations.SafetyReporter/obj/Debug
-/Transrascal.Operations.Web/bin
-/Transrascal.Operations.Web/obj/Debug
-/Transrascal.Operations.Web/obj/Debug
+**/bin/Debug
+**/obj/Debug
+**/bin
 *.user
-/Transrascal.Operations.WindowsDashboard/bin/Debug
+*.suo
