@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transrascal.Operations.Wind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transrascal.Operations.WindowsPhoneSafetyReporter", "Transrascal.Operations.WindowsPhoneSafetyReporter\Transrascal.Operations.WindowsPhoneSafetyReporter.csproj", "{BDC8FA04-146C-432B-8F87-B1B969B20E7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transrascal.Operations", "Transrascal.Operations\Transrascal.Operations.csproj", "{F0ACD620-5154-4A30-A032-60AD7989B2A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,14 +155,24 @@ Global
 		{BDC8FA04-146C-432B-8F87-B1B969B20E7A}.Release|x86.ActiveCfg = Release|x86
 		{BDC8FA04-146C-432B-8F87-B1B969B20E7A}.Release|x86.Build.0 = Release|x86
 		{BDC8FA04-146C-432B-8F87-B1B969B20E7A}.Release|x86.Deploy.0 = Release|x86
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0ACD620-5154-4A30-A032-60AD7989B2A1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{E66DC923-8317-48EB-BB00-881793476F83} = {1FAC8CD6-EFF5-4303-B89B-67D4C7681D6A}
 		{3B8CA4B0-39D3-4422-86CD-779FE9AA5273} = {1FAC8CD6-EFF5-4303-B89B-67D4C7681D6A}
 		{D51F76C3-072D-48FB-88FA-1D59AAAE8DFC} = {1FAC8CD6-EFF5-4303-B89B-67D4C7681D6A}
-		{E66DC923-8317-48EB-BB00-881793476F83} = {1FAC8CD6-EFF5-4303-B89B-67D4C7681D6A}
 		{EBA462C0-2D91-4C1F-853A-723B968BE2EE} = {4F4C1D9B-0832-4872-9F79-8699B1FBA9D8}
 		{BDC8FA04-146C-432B-8F87-B1B969B20E7A} = {4F4C1D9B-0832-4872-9F79-8699B1FBA9D8}
 	EndGlobalSection
